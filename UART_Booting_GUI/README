@@ -1,0 +1,7 @@
+
+1. Requirements
+$ pip install -r requirements.txt
+
+2. make exe file from python
+$ pyinstaller --onefile --noconsole .\GUI_test.py
+$ pyinstaller --onefile --noconsole .\GUI_test.py --icon .\icon.png
